@@ -2,7 +2,7 @@
 
 $HOME/.config/polybar/launch.sh &
 feh --bg-fill ~/Pictures/bg.jpg &
-sxhkd &
+xsetroot -cursor_name left_ptr &
 
 bspc monitor -d 1 2 3 4
 

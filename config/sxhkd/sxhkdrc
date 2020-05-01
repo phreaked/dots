@@ -17,6 +17,9 @@ alt + Escape
 alt + l
 	slock
 
+alt + i
+	firefox
+
 #
 # bspwm hotkeys
 #
