@@ -1,1 +1,5 @@
-.termite{padding:20px;}
+VteTerminal,
+vte-terminal {
+    padding: 15px;
+    -VteTerminal-inner-border: 15px
+}

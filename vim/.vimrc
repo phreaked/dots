@@ -21,4 +21,3 @@ set cursorline
 set laststatus=2
 hi CursorLine cterm=NONE ctermbg=8 ctermfg=NONE
 highlight! link SignColumn LineNr
-autocmd BufWritePost * GitGutter
