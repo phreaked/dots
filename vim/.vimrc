@@ -2,7 +2,6 @@ map <C-n> :NERDTreeToggle<CR>
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 let g:NERDTreeDirArrowExpandable = ''
 let g:NERDTreeDirArrowCollapsible = ''
-
 filetype plugin indent on
 syntax on
 autocmd FileType html setlocal ts=2 sts=2 sw=2
