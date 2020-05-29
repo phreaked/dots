@@ -19,5 +19,5 @@ set noet|retab!
 set noshowmode
 set cursorline
 set laststatus=2
-hi CursorLine cterm=NONE ctermbg=0 ctermfg=NONE
-highlight! link SignColumn LineNr
+hi CursorLineNr term=bold cterm=bold ctermbg=0 ctermfg=NONE
+hi CursorLine term=NONE cterm=NONE ctermbg=0 ctermfg=NONE
