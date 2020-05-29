@@ -13,11 +13,12 @@ autocmd FileType c setlocal ts=4 sts=4 sw=4
 autocmd FileType java setlocal ts=4 sts=4 sw=4
 autocmd FileType javascript setlocal ts=2 sts=2 sw=2
 setlocal ts=2 sts=2 sw=2
+%retab!
 set number
 set et|retab
 set noet|retab!
 set noshowmode
 set cursorline
 set laststatus=2
-hi CursorLine cterm=NONE ctermbg=8 ctermfg=NONE
+hi CursorLine cterm=NONE ctermbg=0 ctermfg=NONE
 highlight! link SignColumn LineNr
