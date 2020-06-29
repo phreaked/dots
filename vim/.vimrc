@@ -1,4 +1,5 @@
 map <C-n> :NERDTreeToggle<CR>
+map <C-t> :tabe<CR>
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 let g:NERDTreeDirArrowExpandable = ''
 let g:NERDTreeDirArrowCollapsible = ''
@@ -11,6 +12,8 @@ autocmd FileType python setlocal ts=4 sts=4 sw=4
 autocmd FileType c setlocal ts=4 sts=4 sw=4
 autocmd FileType java setlocal ts=4 sts=4 sw=4
 autocmd FileType javascript setlocal ts=2 sts=2 sw=2
+autocmd FileType json setlocal ts=2 sts=2 sw=2
+autocmd FileType liquid setlocal ts=2 sts=2 sw=2
 setlocal ts=2 sts=2 sw=2
 %retab!
 set number
